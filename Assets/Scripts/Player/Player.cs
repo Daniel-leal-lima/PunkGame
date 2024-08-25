@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Animation anim;
+    void TakeDamage()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetMouseButton(0))
+        {
+            Hit();
+        }
+    }
+    void Hit()
+    {
+        anim.Play("hit");
     }
 }

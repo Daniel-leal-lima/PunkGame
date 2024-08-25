@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(SpawnForever());
     }
 
-    IEnumerator SpawnForever()
+    IEnumerator SpawnForever()  
     {
         while (true)
         {
