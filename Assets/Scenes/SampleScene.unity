@@ -546,6 +546,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 94850065040786886, guid: f9bbbc6ebdf9f5249adb02889d676025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 26.402384
+      objectReference: {fileID: 0}
+    - target: {fileID: 94850065040786886, guid: f9bbbc6ebdf9f5249adb02889d676025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 126.81706
+      objectReference: {fileID: 0}
+    - target: {fileID: 94850065040786886, guid: f9bbbc6ebdf9f5249adb02889d676025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -63.07689
+      objectReference: {fileID: 0}
     - target: {fileID: 3717964352624212824, guid: f9bbbc6ebdf9f5249adb02889d676025, type: 3}
       propertyPath: m_Name
       value: Player
